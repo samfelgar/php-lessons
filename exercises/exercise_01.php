@@ -16,3 +16,12 @@ Regras:
 - Você pode utilizar uma variável auxiliar
 
 */
+
+$fruit1 = 'orange';
+$fruit2 = 'apple';
+
+$fruit = $fruit1;
+$fruit1 = $fruit2;
+$fruit2 = $fruit;
+
+echo $fruit1;
